@@ -12,20 +12,20 @@ This is basic url shortener project which using sqlite.
 
   GET /all
 
-Response:
+  Response:
 
-[
-{
-"id": 1,
-"url": "https://github.com/gurkanucar",
-"code": "GIT"
-},
-{
-"id": 2,
-"url": "https://www.youtube.com/c/gurkanucar",
-"code": "YT"
-}
-]
+  `[
+  {
+  "id": 1,
+  "url": "https://github.com/kametguler",
+  "code": "GTHB"
+  },
+  {
+  "id": 2,
+  "url": "https://www.youtube.com/channel/UCkvuBt6THRFJqY_0TsTUdKw",
+  "code": "YTBL"
+  }
+  ]`
 
 * Redirect
 
@@ -44,7 +44,7 @@ You will be redirected to the URL of the code.
   Request:
 
   `{
-  "url": "https://github.com/gurkanucar",
+  "url": "https://github.com/kametguler",
   "code": "g"
   }`
 
