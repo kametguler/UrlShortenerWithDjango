@@ -19,3 +19,8 @@ media
 
 # AWS User-specific
 .idea/**/aws.xml
+
+**/migrations
+*.DS_Store
+**/__pycache__
+**/.DS_Store
