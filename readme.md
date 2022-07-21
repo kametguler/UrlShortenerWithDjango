@@ -56,7 +56,7 @@ You will be redirected to the URL of the code.
   "code": "G"
   }`
 
-| Parameter | Type   | Description                                                         |
-|-----------|--------|---------------------------------------------------------------------|
-| url       | string | Required. Code of url to fetch                                      |
-| code      | string | Not Required. If it is null or empty, it will be created automatically. |
+| Parameter | Type   | Description                                                                                       |
+|-----------|--------|---------------------------------------------------------------------------------------------------|
+| url       | string | Required. Code of url to fetch                                                                    |
+| code      | string | Not Required. If it is null or empty, it will be created automatically. (can be max 5 characters) |
